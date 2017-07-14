@@ -10,7 +10,7 @@ from tkinter import *
 local_name=socket.gethostname()
 local_ip=socket.gethostbyname(local_name)
 local_port=6666
-server_ip="162.219.124.138"
+server_ip="########"
 server_port=6379
 client=socket.socket(socket.AF_INET,socket.SOCK_DGRAM)
 flagth=False
